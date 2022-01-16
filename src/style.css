@@ -1,0 +1,236 @@
+body {
+  background-color: #bfbfbf;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #21bf96 !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: #21bf96 !important;
+}
+
+.ant-modal-content {
+  overflow: auto;
+  border-radius: 1rem;
+}
+
+.welcome-modal {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 30px;
+}
+
+.heading-landing {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.landing-welcome{
+  padding-left:25px;
+  font-weight:bold
+}
+
+#githubInput {
+  width: 200px;
+  font-size: 20px;
+  height: 30px;
+}
+
+.connect {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ant-menu-title-content {
+  color: black;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: black !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #020c87 !important;
+}
+
+.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light {
+  background: #bfbfbf;
+  font-family: "VT323", monospace;
+  font-size: 20px !important;
+}
+
+.leading-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -45px;
+  gap: 20px;
+}
+
+.mint-btn {
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-holder {
+  height: 20px;
+}
+
+.ant-layout {
+  background-color: #bfbfbf;
+}
+
+.heading {
+  display: flex;
+  padding: 25px;
+}
+
+.create-text {
+  font-family: "VT323", monospace;
+  font-size: 40px;
+  padding-left: 5px;
+}
+
+.repo-tile {
+  height: 145px;
+  background: #ffffff;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  width: 90%;
+  padding: 20px;
+}
+
+.create-page {
+  width: 100%;
+  font-family: "VT323", monospace;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.repo-name {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.commit {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.create {
+  width: 800px;
+  background: #008000;
+}
+
+.create-box {
+  font-size: 20px;
+}
+
+.create-box {
+  display: flex;
+  height: 580px;
+  margin: auto;
+  padding: 45px;
+}
+
+.image-holder {
+  height: 400px;
+  width: 350px;
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.upload-btn {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 30px;
+  width: 400px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.save-btn {
+  margin-top: 25px;
+}
+
+.field-row-stacked input {
+  width: 300px;
+}
+
+.field-row-stacked label {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal .window{
+  margin:auto;
+  margin-top :150px
+}
